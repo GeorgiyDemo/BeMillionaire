@@ -16,11 +16,11 @@ namespace BeMillionaire
                 listNumbers = new List<int>();
                 Random rand = new Random();
                 int number;
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     do
                     {
-                        number = rand.Next(1, 49);
+                        number = rand.Next(1, 10);
                     } while (listNumbers.Contains(number));
                     listNumbers.Add(number);
                 }
