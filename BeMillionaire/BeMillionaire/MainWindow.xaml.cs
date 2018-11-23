@@ -30,8 +30,9 @@ namespace BeMillionaire
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             MainGameWindow obj = new MainGameWindow(0);
+           
             obj.Show();
-      
+            this.Close();
         }
     }
 }

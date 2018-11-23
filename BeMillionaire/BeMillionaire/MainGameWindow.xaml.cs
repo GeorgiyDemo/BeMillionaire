@@ -17,13 +17,6 @@ namespace BeMillionaire
             List<int> AllNumbers = RandomClass.GetList(false);
             globalcountnumber = countvalue;
             thisnumber = AllNumbers[countvalue];
-
-            foreach (int s in AllNumbers)
-            {
-                MessageBox.Show(s.ToString());
-            }
-
-
             QuestionBlock.Text = SQLiteClass.SQLiteGet("SELECT question FROM Questions WHERE id="+ thisnumber.ToString());
             FirstAnswerButton.Content = SQLiteClass.SQLiteGet("SELECT first FROM Questions WHERE id=" + thisnumber.ToString());
             SecondAnswerButton.Content = SQLiteClass.SQLiteGet("SELECT second FROM Questions WHERE id=" + thisnumber.ToString());
@@ -43,7 +36,7 @@ namespace BeMillionaire
             }
             else
             {
-                MessageBox.Show("Вы проиграли");
+                MessageBox.Show("Вы проиграли,");
                 Close();
             }
         }

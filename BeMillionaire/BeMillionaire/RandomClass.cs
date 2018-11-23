@@ -16,7 +16,7 @@ namespace BeMillionaire
                 listNumbers = new List<int>();
                 Random rand = new Random();
                 int number;
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < 5; i++)
                 {
                     do
                     {

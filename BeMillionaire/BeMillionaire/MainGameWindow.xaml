@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeMillionaire"
         mc:Ignorable="d"
-        Title="MainGameWindow" Height="450" Width="800">
+        Title="Кто хочет стать миллионером? | Вопрос X из X" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="FirstAnswerButton" Content="Button" HorizontalAlignment="Left" Margin="46,318,0,0" VerticalAlignment="Top" Width="346" Height="34" Click="FirstAnswerButton_Click"/>
-        <Button x:Name="SecondAnswerButton" Content="Button" HorizontalAlignment="Left" Margin="397,318,0,0" VerticalAlignment="Top" Width="344" Height="34" Click="SecondAnswerButton_Click"/>
-        <Button x:Name="ThirdAnswerButton" Content="Button" HorizontalAlignment="Left" Margin="46,357,0,0" VerticalAlignment="Top" Width="346" Height="34" Click="ThirdAnswerButton_Click"/>
-        <Button x:Name="ForthAnswerButton" Content="Button" HorizontalAlignment="Left" Margin="397,357,0,0" VerticalAlignment="Top" Width="344" Height="34" Click="ForthAnswerButton_Click"/>
-        <TextBlock x:Name="QuestionBlock" HorizontalAlignment="Left" Margin="46,237,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="76" Width="695"/>
+        <Button x:Name="FirstAnswerButton" Content="[Ответ №1]" HorizontalAlignment="Left" Margin="46,318,0,0" VerticalAlignment="Top" Width="346" Height="34" Click="FirstAnswerButton_Click"/>
+        <Button x:Name="SecondAnswerButton" Content="[Ответ №2]" HorizontalAlignment="Left" Margin="397,318,0,0" VerticalAlignment="Top" Width="344" Height="34" Click="SecondAnswerButton_Click"/>
+        <Button x:Name="ThirdAnswerButton" Content="[Ответ №3]" HorizontalAlignment="Left" Margin="46,357,0,0" VerticalAlignment="Top" Width="346" Height="34" Click="ThirdAnswerButton_Click"/>
+        <Button x:Name="ForthAnswerButton" Content="[Ответ №4]" HorizontalAlignment="Left" Margin="397,357,0,0" VerticalAlignment="Top" Width="344" Height="34" Click="ForthAnswerButton_Click"/>
+        <TextBlock x:Name="QuestionBlock" HorizontalAlignment="Left" Margin="46,237,0,0" TextWrapping="Wrap" Text="[Текст вопроса]" VerticalAlignment="Top" Height="76" Width="695"/>
 
     </Grid>
 </Window>
