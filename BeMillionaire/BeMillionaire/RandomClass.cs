@@ -9,14 +9,14 @@ namespace BeMillionaire
     class RandomClass
     {
         public static List<int> listNumbers;
-        public static List<int> GetList(bool newgeneration)
+        public static List<int> GetList(bool newgeneration, int size)
         {
             if (newgeneration == true)
             {
                 listNumbers = new List<int>();
                 Random rand = new Random();
                 int number;
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < size; i++)
                 {
                     do
                     {

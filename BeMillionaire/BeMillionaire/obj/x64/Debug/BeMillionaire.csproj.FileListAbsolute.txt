@@ -122,3 +122,5 @@ W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\BeMillionaire.c
 W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\BeMillionaire.csproj.CopyComplete
 W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\BeMillionaire.exe
 W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\BeMillionaire.pdb
+W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\ResultWindow.g.cs
+W:\Projects\NadyaKotik\BeMillionaire\BeMillionaire\obj\x64\Debug\ResultWindow.baml

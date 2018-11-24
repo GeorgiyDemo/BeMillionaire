@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="Кто хочет стать миллионером? | Главное меню" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="StartButton" Content="Button" HorizontalAlignment="Left" Margin="284,346,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="StartButton_Click"/>
+        <Button x:Name="StartButton" Content="Начать игру" HorizontalAlignment="Left" Margin="284,346,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="StartButton_Click"/>
+        <ComboBox x:Name="MenuComboBox" HorizontalAlignment="Left" Margin="526,356,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Количество вопросов:" HorizontalAlignment="Left" Margin="526,325,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
