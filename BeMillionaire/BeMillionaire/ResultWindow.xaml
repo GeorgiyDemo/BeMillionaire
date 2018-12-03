@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeMillionaire"
         mc:Ignorable="d"
-        Title="ResultWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="ResultWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="#FF461567">
     <Grid>
-        <TextBlock x:Name="WinTextBlock" HorizontalAlignment="Center" Margin="267,194,249,0" TextWrapping="Wrap" Text="Поздравляем!Вы ответили на все X из X вопросов" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock x:Name="WinTextBlock" HorizontalAlignment="Center" Margin="260,176,256,0" TextWrapping="Wrap" Text="Поздравляем!Вы ответили на все X из X вопросов" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
 
     </Grid>
 </Window>

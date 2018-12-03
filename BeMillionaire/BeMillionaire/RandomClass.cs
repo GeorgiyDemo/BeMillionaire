@@ -20,7 +20,7 @@ namespace BeMillionaire
                 {
                     do
                     {
-                        number = rand.Next(1, 10);
+                        number = rand.Next(1, 30);
                     } while (listNumbers.Contains(number));
                     listNumbers.Add(number);
                 }

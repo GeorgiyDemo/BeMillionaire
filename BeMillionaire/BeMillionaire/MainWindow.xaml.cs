@@ -25,22 +25,16 @@ namespace BeMillionaire
 
             InitializeComponent();
 
-            for (int i=5;i<11;i++)
-                MenuComboBox.Items.Add(i.ToString());
+          
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            if (MenuComboBox.SelectedIndex != -1)
-            {
-                string questionscounter = MenuComboBox.SelectedItem.ToString();
-                RandomClass.GetList(true, Convert.ToInt32(questionscounter));
-                MainGameWindow obj = new MainGameWindow(0, questionscounter);
-                obj.Show();
-                this.Close();
-            }
-            else
-                MessageBox.Show("Выберите количество вопросов");
+             RandomClass.GetList(true, Convert.ToInt32("15"));
+             MainGameWindow obj = new MainGameWindow(0, "15");
+             obj.Show();
+             this.Close();
+          
         }
     }
 }

@@ -92,11 +92,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LoseWindow.xaml.cs">
+      <DependentUpon>LoseWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RandomClass.cs" />
     <Compile Include="ResultWindow.xaml.cs">
       <DependentUpon>ResultWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLiteClass.cs" />
+    <Page Include="LoseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainGameWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
