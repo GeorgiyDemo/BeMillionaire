@@ -24,5 +24,10 @@ namespace BeMillionaire
             InitializeComponent();
             WinTextBlock.Text = "Поздравляем!\nВы ответили на все "+ allstrnumbers + " из "+ allstrnumbers + " вопросов";
         }
+
+        private void RepeatButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -10,7 +10,12 @@ namespace BeMillionaire
         public LoseWindow(int number, int price)
         {
             InitializeComponent();
-            LoseLabel.Content = "Вы проиграли! Вы ответили на "+ number.ToString() + " из 15 вопросов c депозитом "+price.ToString()+ " руб.";
+            LoseLabel.Content = "Вы проиграли!\nВы ответили на "+ number.ToString() + " из 15 вопросов c депозитом "+price.ToString()+ " руб.";
+        }
+
+        private void RepeatButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

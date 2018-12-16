@@ -33,7 +33,6 @@ namespace BeMillionaire
              RandomClass.GetList(true, Convert.ToInt32("15"));
              MainGameWindow obj = new MainGameWindow(0, "15");
              obj.Show();
-             this.Close();
           
         }
     }

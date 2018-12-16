@@ -8,6 +8,8 @@
         Title="ResultWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="#FF461567">
     <Grid>
         <TextBlock x:Name="WinTextBlock" HorizontalAlignment="Center" Margin="260,176,256,0" TextWrapping="Wrap" Text="Поздравляем!Вы ответили на все X из X вопросов" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
+        <Button x:Name="RepeatButton" Content="Начать игру заново" HorizontalAlignment="Left" Margin="258,281,0,0" VerticalAlignment="Top" Width="278" Height="42" Click="RepeatButton_Click" Background="White"/>
+        <Image Margin="10,10,611,237" Source="MILLION_KOTOV.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

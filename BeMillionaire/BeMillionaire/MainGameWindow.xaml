@@ -29,6 +29,7 @@
         <Button x:Name="Button2" Content="200" HorizontalAlignment="Left" Margin="689,284,0,0" VerticalAlignment="Top" Width="87" Background="White"/>
         <Button x:Name="Button1" Content="100" HorizontalAlignment="Left" Margin="689,304,0,0" VerticalAlignment="Top" Width="87" Background="White"/>
         <GroupBox Header="" HorizontalAlignment="Left" Height="77" Margin="28,273,0,0" VerticalAlignment="Top" Width="605"/>
+        <Image Margin="263,10,286,198" Source="MILLION_KOTOV.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

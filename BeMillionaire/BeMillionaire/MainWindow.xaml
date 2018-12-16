@@ -8,6 +8,7 @@
         Title="Кто хочет стать миллионером? | Главное меню" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="#FF461567">
     <Grid>
         <Button x:Name="StartButton" Content="Начать игру" HorizontalAlignment="Left" Margin="270,331,0,0" VerticalAlignment="Top" Width="245" Height="48" Click="StartButton_Click" Background="White"/>
+        <Image Margin="252,32,277,123" Source="MILLION_KOTOV.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

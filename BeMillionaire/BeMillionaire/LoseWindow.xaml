@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeMillionaire"
         mc:Ignorable="d"
-        Title="LoseWindow" Height="450" Width="800" Background="#FF461567">
+        Title="Проигрыш" Height="450" Width="800" Background="#FF461567" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label x:Name="LoseLabel" Content="Label" HorizontalAlignment="Left" Margin="92,130,0,0" VerticalAlignment="Top" Height="30" Width="576" FontSize="14" Foreground="White"/>
+        <Label x:Name="LoseLabel" Content="Вы проиглал" HorizontalAlignment="Left" Margin="131,230,0,0" VerticalAlignment="Top" Height="61" Width="544" FontSize="14" Foreground="White"/>
+        <Image Margin="10,10,611,237" Source="MILLION_KOTOV.png" Stretch="Fill"/>
+        <Button x:Name="RepeatButton" Content="Начать игру заново" HorizontalAlignment="Left" Margin="258,325,0,0" VerticalAlignment="Top" Width="278" Height="42" Click="RepeatButton_Click" Background="White"/>
 
     </Grid>
 </Window>
