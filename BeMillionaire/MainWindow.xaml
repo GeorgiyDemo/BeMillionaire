@@ -1,0 +1,14 @@
+﻿<Window x:Class="BeMillionaire.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeMillionaire"
+        mc:Ignorable="d"
+        Title="Кто хочет стать миллионером? | Главное меню" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="#FF461567">
+    <Grid>
+        <Button x:Name="StartButton" Content="Начать игру" HorizontalAlignment="Left" Margin="270,331,0,0" VerticalAlignment="Top" Width="245" Height="48" Click="StartButton_Click" Background="White"/>
+        <Image Margin="252,32,277,123" Source="logo.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
