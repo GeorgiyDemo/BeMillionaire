@@ -13,7 +13,7 @@ namespace BeMillionaire
         public static void SQLiteExecute(string sql)
         {
 
-            SqliteConnection myConn = new SqliteConnection("DataSource=MillionDatabase.db;");
+            SqliteConnection myConn = new SqliteConnection("DataSource=../../database.db;");
             SqliteCommand sqCommand = new SqliteCommand(sql);
             sqCommand.Connection = myConn;
             myConn.Open();
